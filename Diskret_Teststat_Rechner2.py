@@ -298,9 +298,6 @@ def berechne_Teststatistik(Matrixliste, N):
 
     M_A = np.matmul(Matrixliste[2], Matrixliste[3])
 
-    #print(W_quad)
-    #print(U_quad)
-    #print(A_quad)
     return [M_U, M_A, W_quad, U_quad, A_quad]
 
 
@@ -386,9 +383,3 @@ def fahre_test(r, schritt, p_Werte, s):
             )
         
 fahre_test("zufall", schritt, [], s="")
-#main(klassen=2,
-#            N = 17,
-#            r = "",
-#            o_i = [5, 12],
-#            s = ""
-#            )
